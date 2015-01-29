@@ -1,0 +1,13 @@
+Snake And Ladder Game
+
+This application work as simulator, not with UI has it's developed.
+Traditional game rules applied in games
+1. If the player on square where ladder has started then player will move on the top of square where the ladder ended.
+2. In vice versa if player move in square where snake head is exist then the player will move down the square location where same snake tail is ended.
+3. if player having move on square  where already player occupied the square then current player will move on first sqaure of board.
+
+Added test cases and tried to cover all test cases.
+Cobertura plugin will help to check the code coverage.
+For generating html reports of code coverage execute the maven command as per below:
+
+$mvn clean install cobertura:cobertura
